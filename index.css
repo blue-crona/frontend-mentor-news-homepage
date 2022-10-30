@@ -81,7 +81,7 @@ header {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 3rem;
-    color: var(--very-dark-blue);
+    color: var(--dark-grayish-blue); 
 }
 
 .nav-list-item:hover,
@@ -94,6 +94,7 @@ header {
     font-weight: 800;
     font-size: 2.2rem;   
     line-height: 2.5rem;
+    color: var(--very-dark-blue)
 }
 
 .new {
@@ -170,7 +171,7 @@ hr {
 }
 
 .info-grid-item-img {
-    width: 100px;
+    object-fit: contain;
 }
 
 .info-grid-item-text {
@@ -178,7 +179,7 @@ hr {
 }
 
 .info-grid-item-num {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2rem;
     color: var(--grayish-blue);
     padding-bottom: 0.5em;
@@ -186,7 +187,7 @@ hr {
 }
 
 .info-grid-item-sub-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: .5rem;
     font-weight: 800;
 }
@@ -226,6 +227,7 @@ hr {
 .feature-par {
     line-height: 1.5rem;
     padding-bottom: 1.5rem;
+    color: var(--dark-grayish-blue); 
 }
 
 .attribution { 
@@ -296,6 +298,7 @@ hr {
 
 @media (min-width: 1440px) {
     body {
-        padding: 1% 8%;
+        max-width: 1440px;
+        margin: 0 auto;        
     }
 }
