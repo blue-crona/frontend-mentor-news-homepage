@@ -162,6 +162,7 @@ hr {
     display: grid;
     grid-template-columns: minmax(auto, 1fr);
     gap: var(--grid-gap);
+    margin-bottom: 5em;
 }
 
 .info-grid-item {
@@ -274,6 +275,7 @@ hr {
     .info-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: var(--grid-gap);
+        margin-bottom: 0;
     }
 
     .close {
