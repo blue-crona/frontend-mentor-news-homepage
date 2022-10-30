@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    margin: 2em 0;
+    margin-bottom: 2em;
 }
 
 .grid-container {
@@ -113,7 +113,7 @@ header {
 .new-heading {
     color: var(--soft-orange);
     font-size: 3rem;
-    padding-bottom: 0.75em;
+    padding-bottom: 0.5em;
 }
 
 .new-sub-heading {
@@ -125,7 +125,6 @@ header {
 
 .new-par {
     color: var(--grayish-blue);
-    padding-bottom: 3em;
     line-height: 1.75rem;
 }
 
@@ -138,7 +137,7 @@ hr {
     background-color: var(--grayish-blue);
     border: none;
     height: 1px;
-    margin-bottom: 3em;
+    margin: 1.5em 0;
 }
 
 .new-sub-heading:hover,
@@ -163,7 +162,6 @@ hr {
     display: grid;
     grid-template-columns: minmax(auto, 1fr);
     gap: var(--grid-gap);
-    margin-bottom: 5em;
 }
 
 .info-grid-item {
@@ -171,7 +169,8 @@ hr {
 }
 
 .info-grid-item-img {
-    object-fit: contain;
+    max-width: 25%;
+    height: auto;
 }
 
 .info-grid-item-text {
@@ -179,7 +178,7 @@ hr {
 }
 
 .info-grid-item-num {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 2rem;
     color: var(--grayish-blue);
     padding-bottom: 0.5em;
@@ -267,7 +266,7 @@ hr {
     }
 
     .nav-list-item {
-        margin-left: 4rem;
+        margin-left: 2.5rem;
         font-size: 1rem;
         font-weight: 400;
     }    
@@ -275,7 +274,6 @@ hr {
     .info-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: var(--grid-gap);
-        margin-top: 2.5rem;
     }
 
     .close {
@@ -299,6 +297,6 @@ hr {
 @media (min-width: 1440px) {
     body {
         max-width: 1440px;
-        margin: 0 auto;        
+        padding: 5em 10em;
     }
 }
