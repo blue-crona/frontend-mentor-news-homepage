@@ -51,7 +51,7 @@ Users should be able to:
 ### What I learned
 
 I learned more about CSS animations and discovered the Picture HTML 5 element.
-This was the first time I developed something using a mobile-first workflow. - I plan to apply what I've learned in future projects.
+This was the first time I developed something using a mobile-first workflow and plan to use the workflow in future projects.
 
 ### Continued development
 
