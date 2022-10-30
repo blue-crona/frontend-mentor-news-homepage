@@ -199,9 +199,8 @@ hr {
 
 .close {
     float: right;
-    margin: 2em;
-    margin-right: 15px;
-    width: 45px;
+    margin: 1.5em;
+    width: 10%;
 }
 
 .feature-btn {
@@ -276,7 +275,7 @@ hr {
         grid-template-columns: repeat(3, 1fr);
         gap: var(--grid-gap);
         margin-bottom: 0;
-        margin-top: 1.5em;
+        margin-top: 3em;
     }
 
     .close {
@@ -300,6 +299,6 @@ hr {
 @media (min-width: 1440px) {
     body {
         max-width: 1440px;
-        padding: 4em 10em;
+        padding: 5.5em 10em;
     }
 }
