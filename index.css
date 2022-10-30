@@ -175,27 +175,26 @@ hr {
 }
 
 .info-grid-item-text {
-    padding-left: 1.5em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .info-grid-item-num {
     font-size: 2rem;
-    line-height: 2rem;
     color: var(--grayish-blue);
-    padding-bottom: 0.5em;
     font-weight: 700;
 }
 
 .info-grid-item-sub-title {
     font-size: 1.2rem;
-    padding-bottom: .5rem;
     font-weight: 800;
 }
 
 .info-grid-item-para {
     color: var(--dark-grayish-blue);
-    font-size: 1rem;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
 }
 
 .close {
@@ -276,6 +275,7 @@ hr {
         grid-template-columns: repeat(3, 1fr);
         gap: var(--grid-gap);
         margin-bottom: 0;
+        margin-top: 1.5em;
     }
 
     .close {
