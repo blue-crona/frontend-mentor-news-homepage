@@ -27,9 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshots/desktop-screenshot.jpg)
-![Mobile](./screenshots/mobile-screenshot.jpg)
-![Mobile Menu](./screenshots/mobile-menu-screenshot.jpg)
+![Desktop](./screenshots/desktop.jpg)
 
 ### Links
 
@@ -41,6 +39,7 @@ Users should be able to:
 ### Built with
 
 - Mobile-first workflow
+- BEM methodology
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
