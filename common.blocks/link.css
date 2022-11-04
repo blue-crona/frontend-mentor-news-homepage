@@ -1,0 +1,25 @@
+.link {
+    padding-left: 1.5em;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--dark-grayish-blue); 
+}
+
+.link:hover,
+.link:focus {
+    color: var(--soft-red);
+}
+
+@media (min-width: 75em) {   
+    .links {
+        margin-top: 0;
+        display: flex;
+    }
+
+    .link {
+        padding-left: 3rem;
+        font-size: unset;
+        line-height: unset;
+    }    
+}

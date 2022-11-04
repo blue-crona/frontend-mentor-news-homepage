@@ -1,0 +1,37 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: minmax(auto, 1fr);
+    row-gap: var(--grid-gap);
+    grid-template-areas:
+        "main-grid__hero"
+        "new"
+        "ranked-articles";
+}
+
+.main-grid__hero {
+    grid-area: main-grid__hero;
+}
+
+.main-grid__ranked-articles {
+    grid-area: ranked-articles;
+    margin-bottom: 5em;
+}
+
+.main-grid__new {
+    grid-area: new;
+}
+
+@media (min-width: 75em) {   
+    .main-grid {
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 4em var(--grid-gap);
+        grid-template-areas:
+            "main-grid__hero    new"
+            "ranked-articles    ranked-articles";
+    }
+
+    .main-grid__ranked-articles {
+        margin-bottom: 1em;
+    }
+    
+}

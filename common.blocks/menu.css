@@ -1,0 +1,44 @@
+.menu {
+    height: 100%;
+    width: 70%;
+    background-color: var(--off-white);
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu--close {
+    float: right;
+    margin: 1.5em;
+    width: 10%;
+}
+
+.menu--open {
+    transform: translateX(0%);
+}
+
+.menu__links {
+    margin-top: 10em;
+}
+
+@media (min-width: 75em) {    
+    .menu {
+        display: flex;
+        width: auto;
+        height: auto;
+        transform: none;
+        transition: none;
+        background-color: inherit;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu--close {
+        display: none;
+    }
+
+    .menu__links {
+        margin-top: 0;
+    }
+}
