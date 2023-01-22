@@ -20,7 +20,7 @@
     margin-top: 10em;
 }
 
-@media (min-width: 75em) {    
+@media (min-width: 1440px) {    
     .menu {
         display: flex;
         width: auto;

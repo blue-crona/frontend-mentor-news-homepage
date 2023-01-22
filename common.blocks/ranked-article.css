@@ -41,7 +41,7 @@
     color: var(--soft-red)
 }
 
-@media only screen and (min-width: 1024px) {   
+@media only screen and (min-width: 1440px) {   
     .ranked-articles {
         grid-template-columns: repeat(3, auto);
         column-gap: var(--grid-gap);

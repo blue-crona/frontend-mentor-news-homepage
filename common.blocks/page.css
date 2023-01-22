@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-@media (min-width: 75em) {    
+@media (min-width: 1440px) {    
     .page__menu {
         position: unset;
     }

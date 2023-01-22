@@ -11,7 +11,7 @@
     color: var(--soft-red);
 }
 
-@media (min-width: 75em) {   
+@media (min-width: 1440px) {   
     .links {
         margin-top: 0;
         display: flex;

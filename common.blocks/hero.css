@@ -33,7 +33,7 @@
     color: var(--very-dark-blue)
 }
 
-@media (min-width: 75em) {   
+@media (min-width: 1440px) {   
     .main-grid__hero {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: max-content;
