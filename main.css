@@ -57,10 +57,6 @@ body {
     width: fit-content;
 }
 
-/* main {
-    margin-bottom: 80px;
-} */
-
 .btn:hover,
 .btn:focus {
     background-color: var(--very-dark-blue);

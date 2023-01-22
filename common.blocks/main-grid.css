@@ -4,7 +4,7 @@
     row-gap: var(--grid-gap);
     grid-template-areas:
         "main-grid__hero"
-        "new"
+        "new-articles"
         "ranked-articles";
 }
 
