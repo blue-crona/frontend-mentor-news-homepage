@@ -17,8 +17,8 @@
     margin-bottom: 5em;
 }
 
-.main-grid__new {
-    grid-area: new;
+.main-grid__new-articles {
+    grid-area: new-articles;
 }
 
 @media (min-width: 75em) {   
@@ -26,7 +26,7 @@
         grid-template-columns: 2fr 1fr;
         grid-gap: 4em var(--grid-gap);
         grid-template-areas:
-            "main-grid__hero    new"
+            "main-grid__hero    new-articles"
             "ranked-articles    ranked-articles";
     }
 

@@ -45,7 +45,6 @@
     .ranked-articles {
         grid-template-columns: repeat(3, auto);
         column-gap: var(--grid-gap);
-        /* margin-bottom: 0; */
     }
  
     .ranked-article:not(:first-child) {
